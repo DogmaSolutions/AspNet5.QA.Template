@@ -23,7 +23,7 @@ This folder represents the root directory containing all the projects of the sol
   - **Philips.CodeAnalysis.DuplicateCodeAnalyzer** → [NuGet](https://www.nuget.org/packages/Philips.CodeAnalysis.DuplicateCodeAnalyzer/) / [GitHub](https://github.com/philips-software/roslyn-analyzers). This analyzer is also parametrized using the _DuplicateCode.Allowed.txt_ file
 - **Global.ruleset** → define the code styling rules enforced by StyleCop and its _StyleCop.Analyzers_ NuGet package ([NuGet](https://www.nuget.org/packages/StyleCop.Analyzers/) / [GitHub](https://github.com/DotNetAnalyzers/StyleCopAnalyzers))
 - **BannedSymbols.txt** → the configuration file used by the Roslyn Analyzer _Microsoft.CodeAnalysis.BannedApiAnalyzers_ ([NuGet](https://www.nuget.org/packages/Microsoft.CodeAnalysis.BannedApiAnalyzers/) / [GitHub](https://github.com/dotnet/roslyn-analyzers))
-- **DuplicateCode.Allowed.txt** → the file containing the exceptions allowed by the _Philips.CodeAnalysis.DuplicateCodeAnalyzer_**_ ([NuGet](https://www.nuget.org/packages/Philips.CodeAnalysis.DuplicateCodeAnalyzer/) / [GitHub](https://github.com/philips-software/roslyn-analyzers))
+- **DuplicateCode.Allowed.txt** → the file containing the exceptions allowed by the _Philips.CodeAnalysis.DuplicateCodeAnalyzer_ ([NuGet](https://www.nuget.org/packages/Philips.CodeAnalysis.DuplicateCodeAnalyzer/) / [GitHub](https://github.com/philips-software/roslyn-analyzers))
 - **RiderInspectionSettings.xml** → the configuration file used by [JetBrains Rider](https://www.jetbrains.com/rider/) for the editor inspections
 
 
