@@ -30,8 +30,8 @@ This folder represents the root directory containing all the projects of the sol
 # WebSite subfolder
 This folder represents a directory containing an hypotetical ASP.NET 5 web application, *inheriting and extending* the settings contained into the _Root_ folder,
 The files are:
-- **Directory.Build.props** → Inherit and extends the _Directory.Build.props_ contained into the parent folder, and hooks a [Guld](https://gulpjs.com/) task in the `BeforeTargets="PostBuildEvent"` that process the JS files using [ESLint](https://eslint.org/)
+- **Directory.Build.props** → Inherit and extends the _Directory.Build.props_ contained into the parent folder, and hooks a [Gulp](https://gulpjs.com/) task in the `BeforeTargets="PostBuildEvent"` that process the JS files using [ESLint](https://eslint.org/)
 - **package.json** → install [Babel](https://babeljs.io/), [ESLint](https://eslint.org/) and other basic dependencies. Also define the `eslint` script launched via [Guld](https://gulpjs.com/), used to execute [ESLint](https://eslint.org/)
-- **gulpFile.js** → define the [Guld](https://gulpjs.com/) tasks used to process [ESLint](https://eslint.org/)  and [SCSS](https://sass-lang.com/). Search for the `TODO` comments into the file to customize your process
+- **gulpFile.js** → define the [Gulp](https://gulpjs.com/) tasks used to process [ESLint](https://eslint.org/) and [SCSS](https://sass-lang.com/). Search for the `TODO` comments into the file to customize your process
 - **.eslintrc.js** → an opinionated set of [ESLint](https://eslint.org/) rules. Customize them as needed.
 - **.eslintignore** → the file defining the paths that [ESLint](https://eslint.org/) should ignore. Customize them as needed.
