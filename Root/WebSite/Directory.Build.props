@@ -1,0 +1,14 @@
+<Project>
+    <!-- Force the inheritance of the Directory.Build.props contained into the parent folder-->
+    <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))"/>
+
+    <PropertyGroup>
+        <TargetFrameworks>net5.0</TargetFrameworks>     
+    </PropertyGroup>
+
+    <!-- Build the JS files before building the backend -->
+    <Target Name="GulpBuild" BeforeTargets="PostBuildEvent" >
+        <Message Text="GULP run-eslint" Importance="high"/>
+        <Exec Command="npm run eslint" />
+    </Target>
+</Project>

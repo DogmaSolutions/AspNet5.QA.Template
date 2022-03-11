@@ -1,0 +1,6 @@
+node_modules/**/*.js
+node_modules/**/*.ts
+wwwroot/lib/**/*.js
+**/.nuget/**/*.js
+**/.nuget/**/*.ts
+**/assemblyscript/**/*.ts
